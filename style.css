@@ -82,6 +82,9 @@ body{
     .lhs .mb-5{
       margin-bottom: 2rem !important;
     }
+    .product_section{
+      margin-top: 2rem !important;
+    }
   }
   @media screen and (max-width: 991px) and (min-width: 650px){
     .pic{
@@ -112,6 +115,9 @@ body{
     .lhs .pe-5{
       padding-right: 0px !important;
     }
+    .product_section{
+      margin-top: 5rem !important;
+    }
   }
   @media screen and (max-width: 650px) and (min-width: 500px){
     .pic{
@@ -141,6 +147,9 @@ body{
     }
     .lhs .pe-5{
       padding-right: 0px !important;
+    }
+    .product_section{
+      margin-top: 5rem !important;
     }
   }
   @media screen and (max-width: 500px) and (min-width: 320px){
@@ -174,6 +183,9 @@ body{
     }
     .head1{
       font-size: 25px !important;
+    }
+    .product_section{
+      margin-top: 1rem !important;
     }
   }
   .Footer .background-black {
