@@ -144,7 +144,7 @@
     </div>
     <div class="container mulish">
         <!-- Menu Bar -->
-        <ul class="nav mt-5 d-flex justify-content-evenly" id="myTab" role="tablist"
+        <ul class="nav mt-5 d-flex justify-content-evenly main-tab" id="myTab" role="tablist"
             style=" border-radius: 25px; box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; overflow-x: auto; flex-wrap: nowrap;">
             <li class="nav-item shelf-tab" role="presentation">
                 <a class="nav-link active shelf-a px-5" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab"
@@ -167,6 +167,33 @@
                     aria-controls="tab4" aria-selected="false">Lamp</a>
             </li>
         </ul>
+        <div class="dropdown second-tab d-flex justify-content-center d-none "  >
+            <button class=" text-white  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </button>
+            <ul class="dropdown-menu" id="myTab" role="tablist">
+                <li class="nav-item shelf-tab text-center" role="presentation ">
+                    <a class="nav-link active shelf-a px-5" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab"
+                        aria-controls="tab1" aria-selected="true">Shelf</a>
+                </li>
+              <li class="nav-item  shelf-tab text-center" role="presentation">
+                <a class="nav-link shelf-a px-5 "  id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab"
+                    aria-controls="tab2" style="white-space: nowrap;" aria-selected="false">Wall Decor</a>
+            </li>   
+            <li class="nav-item shelf-tab text-center" role="presentation">
+                <a class="nav-link shelf-a px-5" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab"
+                    aria-controls="tab3" aria-selected="false">Table</a>
+            </li>
+            <li class="nav-item shelf-tab text-center" role="presentation">
+                <a class="nav-link shelf-a px-5" id="tab5-tab" data-bs-toggle="tab" href="#tab5" role="tab"
+                    aria-controls="tab5" style="white-space: nowrap;" aria-selected="false">Chair - sofa - Bench</a>
+            </li>
+            <li class="nav-item shelf-tab text-center" role="presentation">
+                <a class="nav-link shelf-a px-5" id="tab4-tab" data-bs-toggle="tab" href="#tab4" role="tab"
+                    aria-controls="tab4" aria-selected="false">Lamp</a>
+            </li>
+            </ul>
+          </div>
     </div>
 
     <!-- Tab content -->
